@@ -1,0 +1,25 @@
+.tooltip{
+    color: #330088;
+    text-decoration: underline;
+}
+.tooltip::after{
+    content: attr(data-tooltip);
+    background-color: #330088; /* BACKGROUND COLOR */
+    color: #fefefe; /* TEXT COLOR */
+    font-size: 1rem; /* FONT SIZE */
+    padding: 6px 10px; /* TEXT PADDING */
+    min-width: 50px; /* MIN WIDTH THAT THE TOOLTIP CAN HAVE */
+    max-width: 200px; /* MAX WIDTH THAT THE TOOLTIP CAN HAVE */
+    margin-top: 20px; /* MARGIN BETWEEN TEXT */
+
+    display: none;
+    opacity: 0;
+    position: absolute;
+}
+.tooltip:hover::after{
+    display: inline-block;
+    opacity: 1;
+}
+.tooltip:hover{
+    cursor: help;
+}
