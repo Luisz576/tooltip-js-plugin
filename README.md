@@ -29,10 +29,10 @@ After you have imported the files, you will be able to use style of the tooltip 
 
 You can do like this:
 
-<code>&#60;p&#62;This &#60;span class="tooltip"&#62;plugin&#60;/span&#62; is amazing!&#60;p&#62;</code>
+<code>&#60;p&#62;This &#60;span class="tooltip"&#62;plugin&#60;/span&#62; is amazing!&#60;/p&#62;</code>
 
 And to set the tooltip content you use <i>data-tooltip="tooltip_description"</i>
 
-<code>&#60;p&#62;This &#60;span class="tooltip" data-tooltip="Tooltip-js-plugin"&#62;plugin&#60;/span&#62; is amazing!&#60;p&#62;</code>
+<code>&#60;p&#62;This &#60;span class="tooltip" data-tooltip="Tooltip-js-plugin"&#62;plugin&#60;/span&#62; is amazing!&#60;/p&#62;</code>
 
 ### <b>Author: Luisz576 (Luiz Ricardo)</b>
